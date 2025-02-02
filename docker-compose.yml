@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: Esteban/mi-web:latest
+    container_name: mi_web
+    restart: always
+    ports:
+      - "80:80"
